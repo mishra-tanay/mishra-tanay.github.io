@@ -1,0 +1,256 @@
+body {margin:0;}
+
+.navbar {
+  overflow: hidden;
+  background-color:black;
+  position: fixed;
+	opacity:0.9;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 16px 18px;
+  text-decoration: none;
+  font-size: 19px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.main {
+  
+  margin-top: 30px;
+   /* Used in this example to enable scrolling */
+}
+.parallax {
+    /* The image used */
+    /* background-image: url("./Background/n.jpg"); */
+background-color:   #004c81 ;
+    /* Set a specific height */
+	height: 490px;
+	width:100%;
+	margin-bottom:20px;
+	
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.space{
+height: 120px;
+background-color: white;
+}
+.space img
+{
+	margin-left:650px;
+	margin-top:-15px;
+}
+.hello{
+	font-size:100px;
+	color:white;
+	z-index: 2;
+	text-align: center;
+	padding-top:140px;
+	margin:auto;
+	font-family:'Montez', cursive; 
+}
+.welcome
+{
+	font-size:24px;
+	color:white;
+	font-family:'vast shadow' , cursive;
+	z-index: 2;
+	text-align: center;
+	margin:auto;
+}
+.what{
+	font-size:40px;
+	color:white;
+	margin-left:450px;
+	width:500px;
+	margin-top:120px;
+	font-family:'monoton', cursive; 
+
+}
+.about-1{
+	width:100%;
+	height:400px;
+	padding-top:80px;
+	margin-top:80px;
+	margin-bottom: 70px;
+	background-color:black;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+.container-1
+
+{
+	font-family: 'Delius Swash Caps', cursive;
+	color:white;
+	line-height:32px;
+	font-size:28px;
+	text-align: center;
+	padding:10px;
+}
+
+.container-2{
+
+	font-family: 'Delius Swash Caps', cursive;
+	color:white;
+	font-size:28px;
+	text-align: center;
+	line-height:32px;
+	padding:10px;
+}
+
+.container-3
+{
+
+	font-family: 'Delius Swash Caps', cursive;
+	color:white;
+	font-size:28px;
+	text-align: center;
+	line-height:32px;
+	padding:10px;
+}
+.about-2{
+	height:160px;
+	background-color:white;
+	padding-top:70px;
+
+	text-align: center;
+	font-family: 'Inconsolata', monospace;
+	font-size:70px;
+	color:midnightblue
+}
+
+/* div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 190px;
+	height:290px;
+	margin-left:100px;
+	padding:10px;
+} */
+div.gallery
+{
+	border: 2px solid #004c81;
+	border-radius: 25px;
+	width:230px;
+	
+	height:350px;
+	
+}
+div.gallery img {
+    width: 190px;
+	height: auto;
+	padding:10px;
+	padding-left: 15px;
+}
+
+div.desc {
+    padding: 15px;
+  margin-top:20px;
+	text-align: center;
+	background-color:grey;
+	color:white;
+	opacity: 0.9;
+	font-family: 'Inconsolata', monospace;
+}
+.projects{
+	display: grid;
+  grid-template-columns: auto auto auto ;
+	margin-left:200px;
+	align-content: center;
+	margin-bottom:20px;
+	margin-top:-50px;
+}
+.contact
+{ background-color:black;
+	color:white;
+	font-size:18px;
+	height:250px;
+	display: grid;
+	margin-top:50px;
+	grid-template-columns: auto auto;
+	bottom:0px;
+
+	
+}
+.about-me
+{
+	
+	margin-left:100px;
+	padding:5px;
+	line-height: 30px;
+}
+.find-me
+{
+	padding:5px;
+	line-height: 30px;
+}
+.email
+{
+margin-left:600px;
+}
+.email-button
+{
+background:transparent;
+border:1px solid white;
+width:130px;
+height:40px;
+color:white;
+}
+i{
+	padding-right:10px;
+	height:20px;
+}
+.map
+{
+	height:250px;
+	width:500px;
+	margin-left:400px;
+	
+}
+.map-div{
+	margin-top:200px;
+
+}
+.skills{
+	text-align:center;
+	font-family: 'Delius Swash Caps', cursive;
+	font-size:30px;
+	color:white;
+	margin-bottom:30px;
+}
+
+.links :link {
+		text-decoration: none;
+		color:white;
+	}
+	
+.links :visited {
+		text-decoration: none;
+		color:red;
+	}
+	
+.links :hover {
+		text-decoration: none;
+		color:red;
+	}
+	
+.links :active {
+		text-decoration: none;
+		color:red;
+	}

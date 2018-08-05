@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-110829639-1"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<title>Tanay Mishra</title>
+	<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Delius+Swash+Caps|Monoton|Montez|Vast+Shadow" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Inconsolata|Quicksand" rel="stylesheet"> 
+	 <script> 
+	     $(document).ready(function(){
+  // Add smooth scrolling to all links
+  $(".scrollTo").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+		</script>
+</head>
+<body>
+<div class="navbar">
+		<a href="#contact" target="#contact" class="scrollTo">Contact</a>
+		<a href="#projects" class="scrollTo">Projects</a>
+		<a href="#about" class="scrollTo">About</a>
+	<a href="#header" class="scrollTo">Home</a>
+
+ </div>
+<div class="main">
+	<div id="header" class="parallax">
+		<div class="hello">Hello...<br></div>
+		<div class="welcome">Welcome to my Portfolio  </div>
+		<div class="what">&lt; / Web Developer &gt; </div>
+	</div>
+	<div class="space">
+			<a href="#about" class="scrollTo"><img src="https://png.icons8.com/windows/1600/circled-chevron-down.png" width="90px" height="auto"> </a>
+		</div>
+	<div id="about" class="about-1">
+			<div class="skills"> Currently working on <br/> </div>
+	
+			<div class="container-1">
+			 HTML &middot; CSS &middot; Bootstrap &middot; Sass &middot; Javascript &middot; Jquery &middot; React &middot; Node Js</div>
+			<div class="container-2">
+			Mongo DB &middot; SQL </div>
+			<div class="container-3">NPM  &middot; Git  </div>
+			
+
+		
+	 </div>
+	 <div class="space">
+			<a href="#projects" class="scrollTo"><img src="https://png.icons8.com/windows/1600/circled-chevron-down.png" width="90px" height="auto"> </a>
+		</div>
+	<div id="projects" class="projects-display">
+		<div class="about-2">
+			Projects
+		</div>
+	<div class="projects">
+		<div class="gallery">
+				<a href="https://murmuring-plateau-39053.herokuapp.com/">
+				  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Weather-more-clouds.svg/2000px-Weather-more-clouds.svg.png" alt="Weather App" width="600px" height="400px">
+				</a>
+				<div class="desc">A Weather App in React JS using Open Open Weather API</div>
+			  </div>
+			  
+			  <div class="gallery">
+				<a href="https://tic-tac-toe99.herokuapp.com/">
+				  <img src="https://cdn.iconscout.com/public/images/icon/premium/png-512/game-entertainment-fun-tictactoe-tic-tac-toe-316e9981d69b0a8b-512x512.png" alt="Tic-Tac-Toe" width="600px" height="400px">
+				  </a>
+				<div class="desc">Tic-Tac-Toe Game in React JS</div>
+			  </div>
+			  
+			  <div class="gallery">
+				<a  href="https://codepen.io/mishra_tanay/pen/ejKYYz">
+				  <img src="https://cdn2.iconfinder.com/data/icons/business-office-icons/256/To-do_List-512.png" alt="To-Do-List" width="600px" height="400px">
+				</a>
+				<div class="desc">To-Do-List in  Jquery using  Local Storage </div>
+		 </div>
+	</div>
+	<div class="space">
+			<a href="#contact" class="scrollTo"><img src="https://png.icons8.com/windows/1600/circled-chevron-down.png" width="90px" height="auto"> </a>
+		</div>
+	</div>
+<div class="map-div">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.0017052667436!2d77.37083921443697!3d28.629710990960817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce551491b3ce7%3A0x7335d9fcfd4d9db0!2sJaypee+Institute+of+Information+Technology!5e0!3m2!1sen!2sin!4v1533316083741" class="map" allowfullscreen>
+	</iframe>
+</div>
+
+	<div id="contact"  name="contact" class="contact">
+			<div class="about-me">
+				<i class="far fa-user"></i>Tanay Mishra <br/>
+				<i class="fas fa-graduation-cap"></i>Jaypee Institute of Information Technology <br/>
+				<i class="fas fa-mobile"></i>+917023766372<br/>
+			</div>
+			<div class="find-me">
+				<a class="links "href="https://github.com/mishra-tanay"><i class="fab fa-github"></i>Github </a><br/>
+				<a class="links" href="https://codepen.io/mishra_tanay/#"><i class="fab fa-codepen"></i>Code Pen</a><br/>
+				<a class="links" href="https://www.hackerrank.com/mishra_tanay"><i class="fab fa-hackerrank"href=""></i>Hackerrank</a><br/>
+				<a href="https://www.freecodecamp.org/mishra-tanay" class="links"><i class="fab fa-free-code-camp"></i>Free-Code-Camp</a><br/>
+				<a href="https://www.facebook.com/tanay.mishra1998" class="links>"<i class="fab fa-facebook"></i> Facebook</a> 
+			</div>
+			 <div class="email">
+					<a href="mailto:tanaymishra.mishr@gmail.com?Subject=Regarding%20Project" target="_top"><button class="email-button">Send a Mail </button></a>
+		</div>
+		</div>
+</div>
+</body>
+</body>
+</html>
